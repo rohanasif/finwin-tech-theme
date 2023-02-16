@@ -4,7 +4,7 @@
 }
 
 .bg {
-    background: linear-gradient(rgba(126, 126, 126, 0.8), rgba(138, 138, 138, 0.7)), url(./images/028209dc8f614bda9a7ea8af3dbad798.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/028209dc8f614bda9a7ea8af3dbad798.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
