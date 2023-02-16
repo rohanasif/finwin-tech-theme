@@ -9,3 +9,32 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.li {
+    transition-duration: 0.3s;
+}
+
+.li:hover {
+    color: #337BB1;
+    transition-duration: 0.3s;
+}
+
+.arrow {
+    animation-name: up-down;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes up-down {
+    0% {
+        bottom: 80px;
+    }
+
+    50% {
+        bottom: 60px;
+    }
+
+    100% {
+        bottom: 80px;
+    }
+}

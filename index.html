@@ -9,24 +9,36 @@
 </head>
 
 <body>
-    <div class="w-full h-screen bg flex">
-        <nav class="h-[20vh] w-full flex justify-around items-center">
-            <div class="">
+    <div class="w-full h-screen bg flex relative">
+        <nav class="h-[20vh] w-[90%] mx-auto flex justify-between items-center">
+            <div class="cursor-pointer">
                 <img class="w-[134px] h-[40px]" src="./images/download2.png">
             </div>
-            <ul class="flex items-center justify-evenly w-full text-white">
-                <li>Services</li>
-                <li>Technologies</li>
-                <li>Portfolio</li>
-                <li>Blog</li>
-                <li>Career</li>
-                <li>Company</li>
-                <li><i class="fa-solid fa-magnifying-glass"></i></li>
-                <li><button class="bg-[#0d8ee9] px-8 py-4 rounded-full">Contact Us</button></li>
-                <li><button class="">EN</button></li>
+            <div class="flex lg:hidden"><i class="fa-solid fa-bars text-white"></i></div>
+            <ul class="hidden items-center justify-evenly w-full text-white lg:flex">
+                <li class="cursor-pointer li">Services</li>
+                <li class="cursor-pointer li">Technologies</li>
+                <li class="cursor-pointer li">Portfolio</li>
+                <li class="cursor-pointer li">Blog</li>
+                <li class="cursor-pointer li">Career</li>
+                <li class="cursor-pointer li">Company</li>
+                <li class="cursor-pointer"><i class="fa-solid fa-magnifying-glass"></i></li>
+                <a class="bg-[#0d8ee9] px-[26px] pb-[15px] pt-[13px] rounded-full cursor-pointer">Contact Us</a>
+                <a class="cursor-pointer">EN</a>
             </ul>
-
         </nav>
+        <div class="arrow absolute text-white cursor-pointer text-5xl bottom-10 left-16">
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+        <div class="icons fixed right-16 bottom-10">
+            <div class="cursor-pointer whatsapp text-white rounded-full bg-[#0d8ee9] mb-3">
+                <i class="fa-brands fa-whatsapp text-[42px] p-3"></i>
+            </div>
+            <div class="cursor-pointer email text-white rounded-full bg-[#0d8ee9]"><i
+                    class="fa-regular fa-envelope text-[42px] p-3"></i>
+            </div>
+        </div>
+
     </div>
 </body>
 
